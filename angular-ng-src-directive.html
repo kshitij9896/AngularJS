@@ -1,0 +1,26 @@
+<html>
+<head>
+
+<script src="controller.js"></script>
+<script src="new1.js"></script>
+</head>
+<body>
+
+<div ng-controller = "myController">
+<div>
+	Name : {{country.name}}
+</div>
+
+<div>
+	Captital : {{country.capital}}
+</div>
+
+<div>
+<img ng-src="{{ country.flag }}"
+	  alt= "{{ country.name +'Flag' }}"				
+
+ style="height:100px; width:200px"/>
+</div>
+</div>
+</body>
+</html>

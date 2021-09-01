@@ -1,0 +1,21 @@
+<html lang="en" ng-app="">
+<head>
+<meta charset="UTF-8">
+<title>
+	Learning Angular JS More on Expressions is ng-repeat
+</title>
+<script src="http:ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+</script>
+</head>
+<body>
+    <!-- Its works like a loop -->
+
+    <div ng-init="myFavlan=[{name:'JS',extension:'.js'},{name:'ruby',extension:'.rb'},{name:'c',extension:'c'}]">
+ <p ng-repeat="language in myFavlan">
+     
+    Name:{{language.name}}<br>
+    Extension:{{language.extension}}<br>
+
+   
+    </body>
+</html>

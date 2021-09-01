@@ -1,0 +1,25 @@
+<html>
+<scipt src="https"//ajax.googleapis.com/ajaxlibs/angularjs/1.6.9/angular.min.js"></script>
+<h2>
+Validation Example</h2>
+
+<form ng-app="myApp" mg-controller="validateCtrl" name="myform" novalidate>
+
+<p>Username</p>
+<input type="text" name="user" ng-model="user" required>
+<span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+<span ng-show="myFrom.user.$error.required">Username is requiered</span></span></p>
+
+
+<p>
+<input type="submit" ng-disabled="myFrom.user.$dirty && myForm.user.$invalid"></p>
+
+</form>
+
+<script>
+var app = angular.module('myApp',[]);
+app.controller('validateCtrl',
+function($scope){
+       $scope.user = 'Enter Your Name';
+});
+</script>
