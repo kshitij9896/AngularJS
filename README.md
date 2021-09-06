@@ -1,13 +1,13 @@
 
 
-===================================>Give A Star To this Repo<=========================================================
+Give A Star To this Repo
 
 Hey People,
 Sharing My Knowledge With The Community
 
 This Repo consist of AngularJs Basics
 
-===================================>Basics AngularJs Programes<=========================================================
+===>Basics AngularJs Programes<===
 
 =.> AngularJSIntro
 => AngularJs Directive
@@ -20,4 +20,4 @@ This Repo consist of AngularJs Basics
 
 
 
-===================================>Give A Star To this Repo<=========================================================
+===>Give A Star To this Repo<====
